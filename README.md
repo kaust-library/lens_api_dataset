@@ -20,7 +20,6 @@ sequenceDiagram
 1. Upon submission you will receive a confirmation email that your application is now being processed.
 1. Your application is received by the Lens team and will be evaluated based on the use-case, commercial or non-commercial use, affiliation or organization size/type. We may contact you for additional information to help in the evaluation.
 1. If your application is approved, you will receive another confirmation email that will include instructions on how to access your API token to obtain the data.
-1.
 
 ## Access Token
 
