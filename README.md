@@ -34,3 +34,41 @@ Once you have your token, you can start using the API.
 On the [Lens.org support](https://docs.api.lens.org/), there are two very important documents: [Requests](https://docs.api.lens.org/request.html), and [Reponse](https://docs.api.lens.org/response.html).
 
 We will explore simple requests, and how to process the response. 
+
+## Using the Notebook
+
+The notebook can be used on [Visual Studio Code](https://code.visualstudio.com/) or [JupiterLab](https://jupyter.org/).
+
+### Prerequisites
+
+1. Clone the [GitHub repository](https://github.com/kaust-library/using_lens_org): https://github.com/kaust-library/using_lens_org
+1. Create your virtual environment: `python -m venv venv`.
+1. Activate your environment: `. .\venv\Scripts\activate`. (Windows platform) or `. venv/bin/activate` (Linux)
+1. Install the required packages: `pip install -r requirements.txt`.
+
+### VS Code
+
+VScode has support for Jupyter notebook out-of-box. Just open the repository.
+
+```
+File -> open folder -> Folder where you cloned the repository
+```
+
+### Starting JupyterLab
+
+After following the prerequisites above, you should be able to start `jupyter-lab`:
+
+```
+(venv) PS C:\Users\garcm0b\Work\lens_org> jupyter-lab
+```
+
+> Jupyter-lab will try to open a new tab/window of the browser, and for me, always failes. The solution is to click on the link below:
+
+```
+(venv) PS C:\Users\garcm0b\Work\lens_org> jupyter-lab
+(...)
+    To access the server, open this file in a browser:
+        file:///C:/Users/garcm0b/AppData/Roaming/jupyter/runtime/jpserver-26340-open.html <----  Always fails
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=258f8e8f9823683004ee32ce3d33e44673b92e714e6e3615 <---- Always works
+```
